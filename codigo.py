@@ -1,6 +1,6 @@
 #Se ainda não tiver os pacotes pyautogui/pandas instalados, vá no terminal da sua IDE, e digite o comando: "pip install pyautogui" e "pip install pandas".
 
-#Importa os pacotes.
+#Importando os pacotes.
 
 import pyautogui
 import time
