@@ -1,16 +1,19 @@
-# PyAutoEntry
+Automação de Preenchimento de Formulários
 
-**PyAutoEntry** é um projeto que automatiza o preenchimento de formulários web usando PyAutoGUI e pandas. O script acessa o sistema online (no momento, apenas o site descrito no código), faz login e insere dados de arquivos CSV de forma rápida e eficiente, eliminando tarefas repetitivas.
+Este projeto usa PyAutoGUI para automatizar o preenchimento de formulários a partir de uma tabela em formato CSV. Ele abre um navegador, faz login em um sistema, e insere dados de produtos automaticamente.
+Bibliotecas usadas:
 
-## Pré-requisitos
+    pyautogui: Para controlar o mouse e teclado.
+    pandas: Para manipulação de dados da tabela CSV.
 
-Antes de executar o script, você precisa instalar as seguintes bibliotecas:
+Como usar:
 
-- `pyautogui`
-- `pandas`
+    Certifique-se de que pyautogui e pandas estão instalados:
 
-Você pode instalar as dependências usando o pip:
+    bash
 
-```bash
-pip install pyautogui
-pip install pandas
+pip install pyautogui pandas
+
+Configure as posições do mouse para se ajustar à sua tela.
+Certifique-se de ter o arquivo CSV com os produtos no formato correto.
+Execute o script para automatizar o processo.
