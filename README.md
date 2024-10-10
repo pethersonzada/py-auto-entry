@@ -8,9 +8,7 @@ Bibliotecas usadas:
 
 Como usar:
 
-    Certifique-se de que pyautogui e pandas estão instalados:
-
-    bash
+    Certifique-se de que pyautogui e pandas estão instalados
 
 pip install pyautogui pandas
 
