@@ -1,6 +1,7 @@
 Automação de Preenchimento de Formulários
 
 Este projeto usa PyAutoGUI para automatizar o preenchimento de formulários a partir de uma tabela em formato CSV. Ele abre um navegador, faz login em um sistema, e insere dados de produtos automaticamente.
+
 Bibliotecas usadas:
 
     pyautogui: Para controlar o mouse e teclado.
