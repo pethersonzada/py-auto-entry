@@ -40,7 +40,7 @@ pyautogui.click(x=955, y=527)
 
 #Importar os dados da tabela.
 
-tabela = pd.read_csv("projetos-python\py-auto-fill\produtos.csv")
+tabela = pd.read_csv("projetos-python\py-auto-fill\produtos.csv") #(CASO NÃO FUNCIONAR, TENTE ALTERAR O DIRETÓRIO!!)
 print(tabela)
 
 linha = 0 
